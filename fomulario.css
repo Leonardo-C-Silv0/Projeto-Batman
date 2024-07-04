@@ -1,0 +1,218 @@
+
+.div01{
+    background-image: url('./Imagens/55da2eda89d3942c64b13d2531974833.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+h1{
+    background-color: transparent;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 2pxx;
+    text-align: center;
+    line-height: 1.2;
+    
+}
+
+h1::before {
+    content: none;
+    display: block;
+}
+
+.form {
+    background-color: transparent;
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    background-color: #fff;
+    display: block;
+    width: 100%;  
+
+}
+
+.form label,
+.form textarea,
+.form button {
+    background-color: transparent;
+    display: block;
+    width: 100%;  
+}
+
+.form label {
+    color: white;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    background-color: #fff;
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border:  1px solid transparent;
+    border-radius:  8px;
+    transition: border color;
+    box-shadow: 0.2s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: none;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 0 3px black;
+}
+
+.form button {
+    display: block;
+    padding: 1rem;
+    background: red;
+    color: white;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 0 3px black;
+}
+
+
+
+@media(max-width: 768px) {
+    
+    .div01{
+        background-image: url('./Imagens/55da2eda89d3942c64b13d2531974833.jpg');
+        background-position: 50% 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        padding-right: 1rem;
+    
+    }
+
+    h1{
+        background-color: transparent;
+        font-size: 25px;
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 2pxx;
+        text-align: center;
+        line-height: 1.2;
+        
+    }
+
+    .form {
+        background-color: transparent;
+        width: 100%;
+        max-width: 550px;
+        font-size: 1.125rem;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .form input {
+        background-color: #fff;
+        display: block;
+        width: 65%;  
+    
+    }
+    
+    .form label,
+    .form textarea,
+    .form button {
+        background-color: transparent;
+        display: block;
+        width: 65%;  
+    }
+    
+    .form label {
+        color: white;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form input,
+    .form textarea {
+        background-color: #fff;
+        font: inherit;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border:  1px solid transparent;
+        border-radius:  8px;
+        transition: border color;
+        box-shadow: 0.2s;
+    }
+    
+    .form textarea {
+        min-height: 13rem;
+        resize: none;
+    }
+    
+    .form input:hover,
+    .form input:focus,
+    .form textarea:hover,
+    .form textarea:focus {
+        outline: none;
+        border-color: black;
+        box-shadow: 0 0 0 3px black;
+    }
+    
+    .form button {
+        display: block;
+        width: 72%;
+        padding: 1rem;
+        background: red;
+        color: white;
+        font: inherit;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    
+    .form button:hover,
+    .form button:focus {
+        outline: none;
+        border-color: black;
+        box-shadow: 0 0 0 3px black;
+    }
+
+}
+
